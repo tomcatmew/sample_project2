@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace SampleTwo
 {
+    /// <summary>
+    /// State machine, could be useful if we want to efficently manage the animation system later
+    /// </summary>
     public class CharacterState
     {
         public enum CharacterMoveState
@@ -11,7 +14,6 @@ namespace SampleTwo
             Idle,
             Walk,
             Falling,
-            Run,
             Jump
         }
 

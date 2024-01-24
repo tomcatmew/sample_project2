@@ -7,7 +7,8 @@ namespace SampleTwo
     public class CharacterAbility : MonoBehaviour
     {
         /// <summary>
-        /// Gets and stores components for further use
+        /// Basic class for character's ability such as movement and shooting
+        /// All character's abilities are derived from this class
         /// </summary>
         public bool enableAbility = true;
 
